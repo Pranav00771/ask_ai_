@@ -1,0 +1,90 @@
+.body1
+{
+  background-color:rgb(245, 245, 245);
+}
+.h41{
+  font-family:Arial;
+  font-size:29px;
+  color:#000000;
+  position:absolute;
+  left:40%;
+  top:5%;
+}
+ 
+.img1{
+   width:128px;
+   height:128px;
+   position:absolute;
+   left:5%;
+   top:5%;
+  }
+
+.p1{
+  font-family:Arial;
+  font-size:12px;
+  color:#000000;
+  position:absolute;
+  left:30%;
+  top:20%;
+}
+.t1{
+   background-color:rgb(255, 255, 255);
+   border-color:rgb(200, 200, 200);
+   font-family:arial;
+   font-size:12px;
+   width:600px;
+   height:60px;
+   color:#000000;
+   position:absolute;
+   left:35%;
+   top:20%; 
+   border-radius:12px;
+}
+.button1{
+   cursor:pointer;
+   position:absolute;
+    left:80%;
+    top:20%;
+   }
+.p2{
+  font-family:Arial;
+  font-size:12px;
+  color:#000000;
+  position:absolute;
+  left:30%;
+  top:40%;
+}
+.t2{
+   background-color:rgb(255, 255, 255);
+   border-color:rgb(200, 200, 200);
+   font-family:arial;
+   font-size:12px;
+   width:600px;
+   height:200px;
+   color:#000000;
+   position:absolute;
+   left:35%;
+   top:40%;
+   border-radius:12px;
+}
+
+.p3{
+  font-family:Arial;
+  font-size:12px;
+  color:#000000;
+  position:absolute;
+  left:40%;
+  top:90%;
+}
+.pa3{
+   color:#000000;
+ }
+
+.h4c{
+  font-family:Arial;
+  font-size:12px;
+  color:#000000;
+  position:absolute;
+  left:80%;
+  top:90%;
+}
