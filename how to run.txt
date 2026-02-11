@@ -1,0 +1,4 @@
+How to run ?
+
+1) In command prompt "python app.py"
+2)Open web browser and type 127.0.0.1:5000
