@@ -1,0 +1,17 @@
+<html>
+    <title>Ask AI</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+   <body class="body1">
+    <h4 class="h41">Ask AI</h4>
+    <img src="{{ url_for('static', filename='ask_ai.jpg') }}" alt="Ask AI" class="img1"></img>
+    <form method="post">
+    <p class="p1">Prompt Text:</p>
+     <textarea placeholder="Ask Anything" class="t1" rows="600" cols="60" name="question"></textarea>
+    <p class="p2">Output:</p>
+    <textarea class="t2"  rows="600" cols="200">{{answere}}</textarea>
+     <input type="submit" class="button1" value="Ask"/>
+  </form>
+      <p class="p3"><a class="pa3" href="https://github.com/Pranav00771">Copyright (C) Pranav</a></p>
+       <h4 class="h4c">Powered by @Pranav</h4>
+   </body>
+  </html>
