@@ -12,8 +12,9 @@ def ask_ai():
        if len(ques)>0:
               client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
               res=client.responses.create(model="gpt-5.2", input=ques)
-              ans=res.ouput_text
+              ans=res.output_text
    return render_template('index.html', answere=ans)
 
 if __name__=="__main__":
+
    app.run(debug=True)
